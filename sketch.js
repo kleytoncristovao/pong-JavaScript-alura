@@ -53,7 +53,7 @@ function draw() {
   //verificaColisaoRaquete();
   bolinhaNaoFicaPresa();
   verificaColisaoRaquete(xRaquete,yRaquete);
- verificaColisaoRaquete(xRaqueteOponente,yRaqueteOponente);
+  verificaColisaoRaquete(xRaqueteOponente,yRaqueteOponente);
   movimentaRaqueteOponente();
   incluirPlacar();
   marcaPonto();
@@ -159,7 +159,7 @@ function marcaPonto(){
     meusPontos += 1;
     ponto.play();
   }
-  if (xBolinha <10){
+  if (xBolinha <15){
     pontosOponente +=1;
     ponto.play();
   }

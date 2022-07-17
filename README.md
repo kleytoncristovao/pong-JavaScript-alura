@@ -1,4 +1,4 @@
-<h1>Jogo montado com JavaScript</h1>
+<h1 >Jogo montado com JavaScript</h1>
 
 <h2>Observações</h2>
 <p>Uma experiência muito boa e que me ajudou a desenvolver minha lógica de programação, com muitos exercpicios práticos durante o curso da Alura, com certeza me ajudou a entender muitos conceitos.</p>
