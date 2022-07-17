@@ -8,7 +8,7 @@
 - CSS
 
 ## Linguagens de programação usadas:
--JavaScript
+- JavaScript
 
 <h2>✔ Autor: </h2>
 <img src="https://github.com/kleytoncristovao.png" width="100" height="100">
