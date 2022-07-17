@@ -3,6 +3,5 @@ html, body {
   padding: 0;
 }
 canvas {
-  display: flex;
-  justify-content: space-between;
+  display: block;
 }
