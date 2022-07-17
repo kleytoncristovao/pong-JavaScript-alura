@@ -35,8 +35,6 @@ function tocarsom() {
   getAudioContext().resume();
 }
 
-trilha.loop().resume();
-
 function preload(){
   trilha = loadSound("trilha.mp3");
   ponto = loadSound("ponto.mp3");
@@ -86,6 +84,7 @@ function verificaColisaoBorda(){
       }}
   function mostraRaquete(x,y){
       rect(x, y,raqueteComprimento , raqueteAltura);
+
   }
 
 
@@ -171,4 +170,3 @@ function marcaPonto(){
     ponto.play();
   }
 }
-
