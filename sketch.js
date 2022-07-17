@@ -30,6 +30,13 @@ let raquetada;
 let ponto;
 let trilha;
 
+function tocarsom() {
+  trilha.loop();
+  getAudioContext().resume();
+}
+
+trilha.loop().resume();
+
 function preload(){
   trilha = loadSound("trilha.mp3");
   ponto = loadSound("ponto.mp3");
@@ -39,8 +46,7 @@ function preload(){
 
 function setup() {
   createCanvas(600, 400);
-  trilha.play();
-  trilha.loop();
+  tocarsom();
 }
 
 function draw() {
